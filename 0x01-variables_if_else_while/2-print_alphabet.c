@@ -1,24 +1,18 @@
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>
-
 /* more headers goes there */
+#include <stdio.h>
 /**
  * main - Entry point
  *
  * Return: Always 0 (Success)
  */
-/* betty style doc for function main goes there */
 int main(void)
 {
-	int n;
+	char c;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	char i;
-
-	for (i = 'a'; i <= 'z'; i++)
-		putchar(i);
+	for (c = 'a'; c <= 'z' ; c++)
+		putchar (c);
 	putchar('\n');
 	return (0);
 }
