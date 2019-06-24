@@ -1,0 +1,2 @@
+\* Functions declarations *\
+int _putchar(char c);
