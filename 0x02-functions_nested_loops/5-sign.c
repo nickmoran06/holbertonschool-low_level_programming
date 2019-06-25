@@ -1,8 +1,8 @@
 #include "holberton.h"
 /**
  * print_sign - check the sign
- * n - value for function
- * Return - 1 and prints + if n is greater than zero
+ * @n: value for function
+ * Return: 1 and prints + if n is greater than zero
  * Return - 0 and prints 0 if n is zero
  * Return - -1 and prints - if n is less than zero
  */
@@ -13,7 +13,7 @@ int print_sign(int n)
 		_putchar('+');
 		return (1);
 	}
-	else 
+	else
 	{
 		if (n == 0)
 	{

@@ -1,8 +1,8 @@
 #include "holberton.h"
 /**
  * _abs - convert to a positive number
- *
- * @a - The variable
+ * Return: a success
+ * @a: The variable
  */
 int _abs(int a)
 {
