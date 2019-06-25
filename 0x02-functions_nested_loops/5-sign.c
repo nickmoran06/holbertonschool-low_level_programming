@@ -1,4 +1,4 @@
-XSxs#include "holberton.h"
+#include "holberton.h"
 /**
  * print_sign - check the sign
  * @n: value for function
