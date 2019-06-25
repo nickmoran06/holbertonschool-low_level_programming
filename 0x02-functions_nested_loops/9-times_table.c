@@ -28,7 +28,7 @@ void times_table(void)
 				_putchar (44);
 				_putchar (32);
 				_putchar ((line * colum) / 10 + '0')
-					_putchar ((line * colum) % 10 + '0');
+				_putchar ((line * colum) % 10 + '0');
 			}
 		}
 		_putchar(10);
