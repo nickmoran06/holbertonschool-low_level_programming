@@ -7,21 +7,17 @@
  */
 void jack_bauer(void)
 {
-	int R, c1, c2, c3, c4;
-	for (R = 0; R < 2; R++)
-	{
+	int c1, c2, c3, c4;
+
 	for (c1 = 0; c1 <= 2; c1++)
 	{
-		for (c2 = 0; c2 <= 3; c2++)
+		for (c2 = 0; c2 <= 9; c2++)
 		{
 			for (c3 = 0; c3 <= 5; c3++)
 			{
 				for (c4 = 0; c4 <= 9; c4++)
 				{
-					if (c1 == 2 && c2 > 51)
-					{
-					}
-					else
+					if (!(c1 == 2 && c2 > 3))
 					{
 						_putchar(c1 + '0');
 						_putchar(c2 + '0');
@@ -33,6 +29,5 @@ void jack_bauer(void)
 				}
 			}
 		}
-	}
 	}
 }

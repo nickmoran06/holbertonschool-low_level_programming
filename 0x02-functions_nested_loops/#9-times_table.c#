@@ -13,7 +13,15 @@ void times_table(void)
 	{
 		for (colum = 0; colum <= 9; colum++)
 		{
-			line * colum
+			if (line * colum < 10)
+			{
+_putchar
+			}
+			if else (line * colum > 10)
+			{
+
+		       	}
 		}
+		_putchar(10);
 	}
 }
