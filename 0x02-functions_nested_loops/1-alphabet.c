@@ -1,8 +1,8 @@
 #include "holberton.h"
 
-/*
- * print_alphabet: print since 'a' until 'z'
- *
+/**
+ * print_alphabet - print since 'a' until 'z'
+ *  
  *
  */
 void print_alphabet(void)
