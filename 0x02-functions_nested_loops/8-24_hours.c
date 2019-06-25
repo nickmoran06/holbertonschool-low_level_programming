@@ -7,11 +7,12 @@
  */
 void jack_bauer(void)
 {
-	int c1, c2, c3, c4;
-
+	int R, c1, c2, c3, c4;
+	for (R = 0; R < 2; R++)
+	{
 	for (c1 = 0; c1 <= 2; c1++)
 	{
-		for (c2 = 0; c2 <= 4; c2++)
+		for (c2 = 0; c2 <= 3; c2++)
 		{
 			for (c3 = 0; c3 <= 5; c3++)
 			{
@@ -32,5 +33,6 @@ void jack_bauer(void)
 				}
 			}
 		}
+	}
 	}
 }
