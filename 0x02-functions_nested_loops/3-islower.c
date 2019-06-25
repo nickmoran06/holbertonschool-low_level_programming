@@ -1,9 +1,9 @@
 #include "holberton.h"
 /**
- * _islower - check a lowercase character
- * @c - variable
- * return 1 - if c is lowercase
- * return 0 - otherwise
+ * _islower - function to return
+ * @c: variable
+ * Return: 1 for success
+ * struct _islower - check a lowercase
  */
 int _islower(int c)
 {
