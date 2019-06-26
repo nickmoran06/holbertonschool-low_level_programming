@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * times_table - Table of 1 until 9
+ * print_times_table - Table of 1 until 9
  * @n: table until 15
  *
  * Return: any
@@ -9,7 +9,7 @@ void print_times_table(int n)
 {
 	int line, colum;
 
-	if(n < 16 && n >= 0)
+	if (n < 16 && n >= 0)
 	{
 	for (line = 0; line <= n; line++)
 	{
@@ -32,7 +32,7 @@ void print_times_table(int n)
 				_putchar (32);
 				_putchar (32);
 				_putchar ((line * colum) / 10 + '0');
-                                _putchar ((line * colum) % 10 + '0');
+				_putchar ((line * colum) % 10 + '0');
 			}
 			else
 			{
