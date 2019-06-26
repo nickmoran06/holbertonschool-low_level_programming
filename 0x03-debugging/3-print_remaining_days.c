@@ -1,31 +1,37 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
-
-/*
- * This is the preferred style for multi-line
- * comments in C source code.
- * Please use it consistently.
- * Positive anything is better than negative nothing.
- */
+#include "holberton.h"
 
 /**
- * main - Entry point
- *
- * if  and else if statatements
- *
- * Return: Void
+ * print_remaining_days - takes a date and prints how many days are
+ * left in the year, taking leap years into account
+ * @month: month in number format
+ * @day: day of month
+ * @year: year
+ * Return: void
  */
-void positive_or_negative(int i)
+
+void print_remaining_days(int month, int day, int year)
 {
+	if (((year % 4 == 0) && !(year % 100 == 0)) || ((year % 100 == 0) && (year % 400 == 0)))
+	{
+		if (month >= 2 && day >= 60)
+		{
+			day++;
+		}
 
-	if (i > 0)
-		printf("%d is positive\n", i);
-
-	else if (i < 0)
-		printf("%d is negative\n", i);
-
-	else if (i == 0)
-		printf("%d is zero\n", i);
-
+		printf("Day of the year: %d\n", day);
+		printf("Remaining days: %d\n", 366 - day);
+	}
+	else
+	{
+		if (month == 2 && day == 60)
+		{
+			printf("Invalid date: %02d/%02d/%04d\n", month, day - 31, year);
+		}
+		else
+		{
+			printf("Day of the year: %d\n", day);
+			printf("Remaining days: %d\n", 365 - day);
+		}
+	}
 }
