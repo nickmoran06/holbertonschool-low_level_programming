@@ -8,10 +8,10 @@ void print_diagonal(int n)
 {
 	int d, space;
 
-	if (n < 0)
-        {
-                _putchar(10);
-        }
+	if (n <= 0)
+	{
+		_putchar(10);
+	}
 	for (d = 0; d < n; d++)
 	{
 		for (space = 0; space < d; space++)
