@@ -16,4 +16,5 @@ int main(void)
 		var1 = var2;
 		var2 = Ans;
 	}
+	return (0);
 }
