@@ -13,7 +13,7 @@ int main(void)
 	printf("1, 2, ");
 	for (n = 0; n < 48; n++)
 	{
-		ax = v1 + v2;
+		a = v1 + v2;
 		printf("%ld", a);
 		v1 = v2;
 		v2 = a;
