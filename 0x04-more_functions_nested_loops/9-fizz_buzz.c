@@ -1,34 +1,27 @@
 #include "holberton.h"
 #include <stdio.h>
 /**
- * main - entry point
- *
- * Return: 0 to success
- *
+ * main -  prints the numbers from 1 to 100
+ * Return: 0 success
  */
 int main(void)
 {
-	int n100;
+	int n;
 
-	for (n100 = 1; n100 <= 100; n100++)
+	for (n = 1 ; n <= 99 ; n++)
 	{
-		if (n100 % 3 == 0 && n100 % 5 != 0)
-		{
-			printf("Fizz ");
-		}
-		if (n100 % 5 == 0 && n100 % 3 != 0)
-		{
-			printf("Buzz ");
-		}
-		if (n100 % 3 == 0 && n100 % 5 == 0)
-		{
+		if ((n % 3 == 0) && (n % 5 == 0))
 			printf("FizzBuzz ");
-		}
-		if (n100 % 3 != 0 && n100 % 5 != 0)
-		{
-			printf("%d ", n100);
-		}
+
+		else if (n % 3 == 0)
+			printf("Fizz ");
+
+		else if (n % 5 == 0)
+			printf("Buzz ");
+
+		else
+			printf("%d ", n);
 	}
-	putchar(10);
+	printf("Buzz\n");
 	return (0);
 }
