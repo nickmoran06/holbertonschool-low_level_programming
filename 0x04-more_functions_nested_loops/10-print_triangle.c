@@ -3,7 +3,7 @@
  * print_triangle - print a triangle
  *
  * @size: how big is the triangle
- * Return: 0 TO SUCCESS 
+ * Return: 0 TO SUCCESS
  */
 void print_triangle(int size)
 {
