@@ -16,11 +16,7 @@ int main(void)
 		{
 			printf("Fizz ");
 		}
-		if (n100 % 5 == 0 && n100 % 3 != 0 && n100 == 100)
-		{
-			printf("Buzz ");
-		}
-		if (n100 % 5 == 0 && n100 % 3 != 0 && n100 != 100)
+		if (n100 % 5 == 0 && n100 % 3 != 0)
 		{
 			printf("Buzz ");
 		}
