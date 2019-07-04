@@ -8,7 +8,7 @@ char *string_toupper(char *n)
 {
 	int d;
 
-	for (d = 0; n[d] != 0; n++)
+	for (d = 0; n[d] != 0; d++)
 	{
 		if (n[d] >= 'a' && n[d] <= 'z')
 			n[d] = n[d] - 32;
