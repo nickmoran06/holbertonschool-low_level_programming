@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
  * _strncat - concatenate two strings with a integer limit
- * @des: string
+ * @dest: string
  * @src: string
  * @n: integer
  * Return: dest to success
