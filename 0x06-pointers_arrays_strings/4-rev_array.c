@@ -6,7 +6,6 @@
  * Return: void
  */
 void reverse_array(int *a, int n)
-/**
 {
 	int s, d = 0;
 
@@ -18,20 +17,5 @@ void reverse_array(int *a, int n)
 		a[n] = s;
 		d++;
 		n--;
-	}
-}
-*/
-{
-	int j = 0;
-	int change;
-
-	n--;
-	while (n >= j && n != j)
-	{
-		change = *(a + n);
-		*(a + n) = *(a + j);
-		*(a + j) = change;
-		n--;
-		j++;
 	}
 }
