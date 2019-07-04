@@ -1,0 +1,1 @@
+_More pointera nad arrays_
