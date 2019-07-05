@@ -1,8 +1,8 @@
 #include "holberton.h"
 /**
- *
- *
- *
+ * leet - encode a string in 1337
+ * @n: string
+ * Return: string to success
  */
 char *leet(char *n)
 {
@@ -19,5 +19,5 @@ char *leet(char *n)
 		}
 		s++;
 	}
-	return(n);
+	return (n);
 }
