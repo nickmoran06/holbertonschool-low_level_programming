@@ -1,10 +1,10 @@
 #include "holberton.h"
 /**
  * _strspn - Write a function that gets the length of a prefix substring.
- * @s:
- * @accept:
+ * @s: string
+ * @accept: part that should coincide
  *
- * Return:
+ * Return: a variable
  */
 unsigned int _strspn(char *s, char *accept)
 {
@@ -17,10 +17,9 @@ unsigned int _strspn(char *s, char *accept)
 			if (s[a] == accept[b])
 				break;
 		}
-		if (!accept[b])
+		if (s[a] != accept[b])
 			break;
 		a++;
 	}
 	return (a);
 }
-    
