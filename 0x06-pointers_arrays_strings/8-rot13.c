@@ -15,7 +15,10 @@ char *rot13(char *n)
 		for (d = 0; d <= 52; d++)
 		{
 			if (n[s] == arr1[d])
+			{
 				n[s] = arr2[d];
+				break;
+			}
 		}
 		s++;
 	}
