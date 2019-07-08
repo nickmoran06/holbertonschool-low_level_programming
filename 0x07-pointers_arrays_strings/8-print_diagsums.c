@@ -1,4 +1,5 @@
 #include "holberton.h"
+#include <stdio.h>
 /**
  * _print_diagsmus -
  * @a:
@@ -8,5 +9,4 @@
  */
 void print_diagsums(int *a, int size)
 {
-
 }
