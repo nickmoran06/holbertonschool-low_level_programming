@@ -4,14 +4,23 @@
  * @n: string
  * Return: 0 success
  */
-char *string_toupper(char *n)
+char *string_toupper(char *needle)
 {
-	int d;
-
-	for (d = 0; n[d] != 0; d++)
+	while (needle[j] && (haystack[i] == needle[0]))
 	{
-		if (n[d] >= 'a' && n[d] <= 'z')
-			n[d] = n[d] - 32;
+		if (haystack[i + j] == needle[j])
+			j++;
+		else
+			break;
 	}
-	return (n);
+	if (needle[j])
+	{
+		i++;
+		j = 0;
+	}
+	else
+		return (haystack + i);
+}
+
+    
 }
