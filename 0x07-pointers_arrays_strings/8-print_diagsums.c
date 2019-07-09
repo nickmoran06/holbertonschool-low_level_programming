@@ -1,7 +1,7 @@
 #include "holberton.h"
 #include <stdio.h>
 /**
- * _print_diagsmus - Write a function that prints the sum of the two diagonals
+ * print_diagsums - Write a function that prints the sum of the two diagonals
  * of a square matrix of integers.
  * @a: string
  * @size: size of the matrice
