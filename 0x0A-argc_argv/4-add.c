@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
 	{
 		for (j = 0; argv[i][j] != '\0'; j++)
 		{
-			if (isalpha(argv[i][j]) == 0)
+			if (!isalpha(argv[i][j]) == 0)
 			{
 				printf("Error\n");
 				return (1);
