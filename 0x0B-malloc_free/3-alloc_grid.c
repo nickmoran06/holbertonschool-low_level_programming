@@ -9,19 +9,26 @@
  */
 int **alloc_grid(int width, int height)
 {
-	char *a;
-	unsigned int i = 0;
-	unsigned int j;
+	int **a;
+	int i;
+	int j;
 
-	if (str == 0)
+	if (width <= 0 || height <= 0)
 		return (NULL);
-	while (str[i])
-		i++;
-	i++;
-	a = malloc(i * sizeof(char));
-	if (a == NULL)
+
+	a = malloc(height * sizeof(int));
+	if (!a)
 		return (NULL);
-	for (j = 0; j < i; j++)
-		a[j] = str[j];
+
+	for (i = 0; i < height; i++)
+	{
+		a[i] = malloc(width * sizeof(int));
+		if (!a[i])
+		{
+			return (NULL);
+		}
+		for (j = 0; j < width; j++)
+			a[i][j] = 0;
+	}
 	return (a);
 }
