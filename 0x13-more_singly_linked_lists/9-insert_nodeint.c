@@ -13,7 +13,6 @@
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 {
 	listint_t *cpy = *head;
-	listint_t *next_node;
 	listint_t *new;
 	unsigned int count;
 
@@ -39,9 +38,8 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 				return (NULL);
 			cpy = cpy->next;
 		}
-		next_node = cpy->next;
+		new->next = cpy->next;
 		cpy->next = new;
-		new->next = next_node;
 	}
 	return (new);
 }
