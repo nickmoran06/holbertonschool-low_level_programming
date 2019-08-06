@@ -2,8 +2,8 @@
 
 /**
  * add_nodeint - a function to add a node in the beginnig
- * @header: double pointer
- * @h: pointer to the struct
+ * @head: double pointer
+ * @n: integer in struct
  *
  * Return: the number of nodes
  */
