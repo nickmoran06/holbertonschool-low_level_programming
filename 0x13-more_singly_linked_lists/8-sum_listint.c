@@ -9,11 +9,10 @@
 int sum_listint(listint_t *head)
 {
 	listint_t *cpy = head;
-	unsigned int ans_sum;
+	unsigned int ans_sum = 0;
 
-	if (cpy == NULL)
+	if (!cpy)
 		return (0);
-
 	while (cpy)
 	{
 		ans_sum += cpy->n;
