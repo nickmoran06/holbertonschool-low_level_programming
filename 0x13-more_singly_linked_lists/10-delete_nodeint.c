@@ -9,7 +9,7 @@
  */
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
 {
-	listint_t *cpy = *head;
+	listint_t *cpy;
 	listint_t *next_node;
 	unsigned int count;
 
