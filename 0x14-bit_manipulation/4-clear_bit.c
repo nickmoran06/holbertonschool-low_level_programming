@@ -11,7 +11,7 @@ int clear_bit(unsigned long int *n, unsigned int index)
 {
 	unsigned long int comp_bit;
 
-	if (index > (sizeof(unsigned long int)))
+	if (index > (sizeof(unsigned long int) * 4))
 		return (-1);
 	comp_bit = 1 << index;
 	*n = *n & ~comp_bit;
