@@ -23,10 +23,11 @@ int create_file(const char *filename, char *text_content)
 	while (text_content[counter])
 		counter++;
 	if (text_content != NULL)
+	{
 		content = write(fd, text_content, counter);
-	if (content == -1)
-		return (-1);
-
+		if (content == -1)
+			return (-1);
+	}
 	close(fd);
 	return (1);
 }
