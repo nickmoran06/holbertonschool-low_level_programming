@@ -1,6 +1,8 @@
 #ifndef SORT_HEADER
 #define SORT_HEADER
 
+#include <stddef.h>
+
 /**
  * struct listint_s - Doubly linked list node
  *
