@@ -12,6 +12,8 @@ size_t binary_tree_size(const binary_tree_t *tree)
 {
 	int yesid = 0, nicolas = 0;
 
+	if (!tree)
+		return (0);
 	if (tree)
 	{
 		if (tree->left)
