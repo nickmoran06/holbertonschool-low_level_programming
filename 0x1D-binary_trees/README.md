@@ -2,6 +2,7 @@
 <img width="260" height="170" src="https://davidjohncoleman.com/wp-djc/wp-content/uploads/2017/06/HBTN-Borderless-CMYK-Logo-Vertical-Color-Black@1200ppi-300x236.png" align="right" >
 </p>
 # :colombia: C - Binary trees
+
 - What is a binary tree
 - What is the difference between a binary tree and a Binary Search Tree
 - What is the possible gain in terms of time complexity compared to linked lists
@@ -13,17 +14,17 @@ Language C and compiler gcc with fhe flags:
                                                                              
 gcc -Wall -Werror -Wextra -pedantic                                             
 ## Installing
-for have the code in your local machine you only need download the code files and put it into a directory.
+For have the code in your local machine you only need download the code files and put it into a directory.
 ## Built With
 gcc 4.8.4 and ubuntu 14.04
 ## Contributing
--- Nicolas Moran - Holberton Student
--- Yesid Gutierrez - Holberton Student
+- Nicolás Morán - Holberton Student
+- Yesid Gutierrez - Holberton Student
 ## Versioning
-for my learning in Holberton School
+For my learning in Holberton School
 ## Authors
----Nicolas Moran  956@holbertonschool.com
----Yesid Gutierrez  944@holbertonshcool.com
+- [Yesid Gutierrez](https://github.com/Yesidh)
+- [Nicolás Morán](https://github.com/nickmoran06)
 ## Files
 |              File                |               Description                  |
 | ---------------------------------| ------------------------------------------ |
