@@ -20,7 +20,7 @@ int binary_tree_is_full(const binary_tree_t *tree)
 		flag = binary_tree_is_full(tree->left);
 		flag = binary_tree_is_full(tree->right);
 	}
-	else
-		return (flag);
-	return (flag);
+	if (flag == 0)
+		return (0);
+	return (1);
 }
