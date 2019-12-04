@@ -1,8 +1,8 @@
 <p>
 <img width="260" height="170" src="https://davidjohncoleman.com/wp-djc/wp-content/uploads/2017/06/HBTN-Borderless-CMYK-Logo-Vertical-Color-Black@1200ppi-300x236.png" align="right" >
 </p>
-# :colombia: C - Binary trees
 
+# :colombia: C - Binary trees
 - What is a binary tree
 - What is the difference between a binary tree and a Binary Search Tree
 - What is the possible gain in terms of time complexity compared to linked lists
@@ -18,8 +18,8 @@ For have the code in your local machine you only need download the code files an
 ## Built With
 gcc 4.8.4 and ubuntu 14.04
 ## Contributing
-- Nicolás Morán - Holberton Student
-- Yesid Gutierrez - Holberton Student
+- Nicolás Morán - 956@holbertonschool.com
+- Yesid Gutierrez - 944@holbertonshcool.com
 ## Versioning
 For my learning in Holberton School
 ## Authors
