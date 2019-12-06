@@ -28,6 +28,20 @@ typedef struct binary_tree_s bst_t;
 typedef struct binary_tree_s avl_t;
 typedef struct binary_tree_s heap_t;
 
+/**
+ * struct binary_linked_list - Binary tree linked list
+ *
+ * @value: value of each node
+ * @depth: depth of the binary tree
+ * @next: pointer to the next node
+ */
+typedef struct binary_list
+{
+	int value;
+	struct binary_list *depth;
+	struct binary_list *next;
+}b_list;
+
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
 binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value);
 binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value);
@@ -47,6 +61,9 @@ int binary_tree_is_full(const binary_tree_t *tree);
 int binary_tree_is_perfect(const binary_tree_t *tree);
 binary_tree_t *binary_tree_sibling(binary_tree_t *node);
 binary_tree_t *binary_tree_uncle(binary_tree_t *node);
+binary_tree_t *binary_trees_ancestor(const binary_tree_t *first, const binary_tree_t *second);
+void binary_tree_levelorder(const binary_tree_t *tree, void (*func)(int));
+int binary_tree_is_complete(const binary_tree_t *tree);
 
 void binary_tree_print(const binary_tree_t *);
 
