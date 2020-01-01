@@ -12,7 +12,7 @@ A repository with different projects in the C programming language.
 * C language
 
 ## Projects
-* In each README of the projects are their respective modes of use, objectives, installation and execution.
+In each README of the projects are their respective modes of use, objectives, installation and execution.
 * [0x00-hello_world](./0x00-hello_world)
 * [0x01-variables_if_else_while](./0x01-variables_if_else_while)
 * [0x02-functions_nested_loops](./0x02-functions_nested_loops)
