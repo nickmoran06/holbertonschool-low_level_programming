@@ -53,12 +53,11 @@ void print_process_array(int *array, size_t size)
 	size_t index = 0;
 
 	printf("Searching in array:");
-	while (index < size)
+	for (index = 0; index < size; index++)
 	{
 		printf(" %d", array[index]);
 		if (index != size - 1)
 			printf(",");
-		index++;
 	}
 	printf("\n");
 }
