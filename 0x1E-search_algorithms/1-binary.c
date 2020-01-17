@@ -63,7 +63,7 @@ void print_process_array(int *array, size_t size)
 		printf(" %d", array[index]);
 		if (index != size - 1)
 			printf(",");
-		index++
+		index++;
 	}
 	printf("\n");
 }
